@@ -43,6 +43,7 @@ public class CalcController {
     }
     @GetMapping("/hello")
     public ResponseEntity<String> hello(){
+        //featureA1
         return ResponseEntity.ok("hello is returned");
     }
 
