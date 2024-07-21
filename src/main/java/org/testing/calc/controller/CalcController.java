@@ -37,6 +37,11 @@ public class CalcController {
         }
     }
 
+    @GetMapping("featureB")
+    public String featureB(){
+        return "featureB";
+    }
+
 
 }
 
