@@ -38,8 +38,12 @@ public class CalcController {
     }
 
     @GetMapping("featureB")
-    public String featureB(){
+    public String featureB() {
         return "featureB";
+    }
+    @GetMapping("/hello")
+    public ResponseEntity<String> hello(){
+        return ResponseEntity.ok("hello is returned");
     }
 
 
